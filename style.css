@@ -1,0 +1,138 @@
+/* 
+--tea-green: #ccd5aeff;
+--beige: #e9edc9ff;
+--cornsilk: #fefae0ff;
+--papaya-whip: #faedcdff;
+--buff: #d4a373ff;
+*/
+body{
+    background-color: #D4A373;
+}
+
+.recipe-card{
+    background-color:#fff1e2;
+    width: 80%;
+    max-width:600px ;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 4px 7px 5px rgba(0, 0, 0, 0.3);
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #c7a787;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+h1{
+    font-size: 2.5em;
+    color: #6b4723;
+    text-align: center;
+}
+
+.diet{
+    margin: -20px auto 10px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.diet p{
+    display: inline-block;
+    background-color: #E9EDC9;
+    padding: 0px 40px;
+    border: 1px solid  #c3c991;
+    margin: 10px;
+    line-height: 2.3;
+    border-radius: 10px;
+    color: #4c5220;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.intro p{
+    text-align: center;
+    font-size: 17px;
+}
+
+.prep {
+    background-color: #f2d4b8;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.prep h3 {
+    color: #6b4723;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.prep span {
+    font-weight: bold;
+    color: #000000;
+}
+
+.prep ul {
+    padding: 0 0 0 50px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.prep li {
+    margin-bottom: 5px;
+}
+
+.prep li::marker{
+    color: #6b4723;
+}
+
+h2{
+    color: #6b4723;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+.ingredients li{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.instruct li{
+    margin-bottom: 10px;
+    font-size: 17px;
+} 
+
+.ingredients li::marker{
+    color: #6b4723;
+}
+
+.instruct li::marker{
+    color: #6b4723;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    width: 50%;
+    padding: 5px 10px;
+}
+
+tr {
+  border-bottom: 1px solid #c7a787;
+}
+
+table span {
+    font-weight: bold;
+    color: #7e4e1e;
+}
